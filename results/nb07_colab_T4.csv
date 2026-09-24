@@ -1,0 +1,6 @@
+item,value,note
+fit_mode low_memory,fit 1.0s | 20 predict calls 8.8s,TabPFN-3 n_estimators=1; Colab T4 2026-09-24
+fit_mode fit_with_cache,fit 1.3s | 20 predict calls 1.0s,KV-cache ~8.8x faster repeated predict for +0.3s fit
+top5 riskiest predicted prob,[1.0 1.0 1.0 1.0 1.0],all saturated at 1.0
+shapley bar top feature,SGR +0.48,aggregate over 5 riskiest; budget=256 baseline imputer
+shapley bar 'Sum of 54 other features',+1.98,long tail outweighs every named top-10 ratio

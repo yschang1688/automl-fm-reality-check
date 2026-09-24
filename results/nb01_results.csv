@@ -1,0 +1,5 @@
+model,test_auc,seconds,note
+Naive XGBoost,0.9568,0.3,
+XGBoost (AutoGluon bagged 8-fold),0.9675,9.9,
+TabICLv2 (default; CPU),,>9900,killed after 2h45m unfinished on M1 CPU
+TabFM (1 member),,,skipped locally (jax+GPU)

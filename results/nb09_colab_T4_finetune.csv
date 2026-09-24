@@ -1,0 +1,3 @@
+model,score_test_MASE,score_val_MASE,pred_time_test_s,fit_time_s,note
+Chronos2FineTuned (LoRA 126912 trainable / 120.7M),0.6931,0.8201,10.06,266.86,Colab T4 2026-09-23; needed torchao>=0.16 (preinstalled 0.10 breaks peft)
+Chronos2ZeroShot,0.6962,0.8172,9.50,1.18,Colab T4 2026-09-23; AG-TS picked this as best (val)

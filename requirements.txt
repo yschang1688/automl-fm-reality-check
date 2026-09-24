@@ -1,0 +1,11 @@
+# 本機（macOS arm64, Python 3.12）實跑版本
+autogluon.tabular==1.6.1
+# autogluon.timeseries==1.6.1 會拉 xgboost-cpu（無 macOS arm64 wheel）；見 docs/ENV_NOTES.md 的安裝繞道
+xgboost
+lightgbm
+tabicl
+openml
+torch
+matplotlib
+scikit-learn
+pandas

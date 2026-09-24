@@ -1,0 +1,6 @@
+model,score_test_auc,score_val_auc,pred_time_test_s,fit_time_s,note
+WeightedEnsemble_L2,0.986008,0.985025,8.83,71.10,Colab T4 2026-09-24; 8-fold bag each
+TabPFN-3_BAG_L1,0.984617,0.983549,5.02,40.46,own Prior Labs token (noncommercial license)
+TabICL_BAG_L1,0.984246,0.980605,3.81,30.57,TabICLv2
+TabDPT-Turbo_BAG_L1,0.964703,0.957274,7.02,43.07,
+NORI,,,,,regression-only; AutoGluon dropped it from fit plan on binary task (no crash)

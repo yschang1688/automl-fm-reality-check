@@ -1,0 +1,6 @@
+model,score_test_auc,score_val_auc,fit_time_s,note
+WeightedEnsemble_L2 (CatBoost 0.643 + TabPFN-3 0.357),0.858408,0.878787,46.77,Amazon_employee_access OpenML 363613 fold0; Colab T4 2026-09-24
+CatBoost,0.851396,0.872290,41.44,
+TabICL,0.838963,0.846518,6.18,TabICLv2
+TabPFN-3 (local; default),0.832044,0.845584,5.25,noncommercial weights
+TabPFN-3 thinking mode (API; effort=high; metric=roc_auc),0.8687,,190,runs on Prior Labs cloud API; single split; tutorial 9-split mean 0.885 vs CatBoost tuned+ens 0.882
